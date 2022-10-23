@@ -1,8 +1,8 @@
-def filter_list(lst):
+def filter_list(l):
     res = []
-    for l in lst:
-        if isinstance(l, int):
-            res.append(l)
+    for elm in l:
+        if isinstance(elm, int):
+            res.append(elm)
     return res
 
 if __name__=='__main__':
