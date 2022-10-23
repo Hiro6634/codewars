@@ -1,8 +1,8 @@
-def solution(str,end):
-    lend = len(end)
-    lstr = len(str)
+def solution(string,ending):
+    lend = len(ending)
+    lstr = len(string)
     i = lstr - lend
-    return str[i:] == end
+    return string[i:] == ending
 
 if __name__=='__main__':
     str = 'escolopendra'
